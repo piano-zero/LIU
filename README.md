@@ -26,7 +26,6 @@ L'obiettivo è rimuovere le barriere tecnologiche: niente server complicati o co
 ## ✨ Funzionalità Principali
 
 * 👥 **Anagrafica Lettori:** Gestione completa dei profili utenti, con storico dei prestiti e contatti rapidi.
-* 📚 **Catalogo Libri:** Inserimento e modifica rapida dei volumi disponibili (Titolo, Autore, ISBN, Collocazione).
 * 🔄 **Gestione Prestiti:** Sistema di Check-in e Check-out immediato. Associa un libro a un lettore in pochi secondi.
 * scadenze **Monitoraggio Scadenze:** Visualizzazione chiara dei libri in ritardo o in scadenza, per facilitare i solleciti.
 * 📊 **Storico Movimenti:** Tieni traccia di tutti i movimenti passati per statistiche e controllo.
