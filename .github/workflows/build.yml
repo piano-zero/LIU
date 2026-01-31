@@ -1,0 +1,36 @@
+name: Build LIU Gestionale
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout del codice
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Installa le dipendenze
+      run: |
+        python -m pip install --upgrade pip
+        # Aggiungiamo Pillow per le immagini e fpdf per i report
+        pip install pyinstaller fpdf Pillow
+
+    - name: Creazione EXE
+      run: |
+        # PyInstaller seguirà automaticamente gli import di liu_config e liu_reports
+        # --noconsole: nasconde il terminale
+        # --onefile: crea un unico file .exe
+        # --collect-submodules: assicura che i tuoi moduli proprietari siano inclusi
+        pyinstaller --noconsole --onefile --name "LIU_Biblioteca" main.py
+
+    - name: Carica l'eseguibile
+      uses: actions/upload-artifact@v4
+      with:
+        name: LIU-Gestionale-EXE
+        path: dist/*.exe
