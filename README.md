@@ -48,7 +48,7 @@ L'obiettivo è rimuovere le barriere tecnologiche: niente server complicati o co
 
 1.  **Clona il repository:**
     ```bash
-    git clone [https://github.com/piano-zero/LIU_Gestionale.git](https://github.com/piano-zero/LIU.git)
+    git clone [https://github.com/piano-zero/LIU.git](https://github.com/piano-zero/LIU.git)
     ```
 
 2.  **Installa le dipendenze (se presenti):**
