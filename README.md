@@ -73,9 +73,16 @@ Ogni aiuto è prezioso:
 
 ## 📄 Licenza
 
-Distribuito sotto licenza **MIT**. Sentiti libero di usare, modificare e distribuire questo software per la tua biblioteca.
+Distribuito sotto licenza **GNU General Public License v3.0**.
 
 ---
+
+<div align="center">
+  
+  Created with ❤️ by [Rodolfo Sabelli](https://github.com/TUO_USERNAME)
+  
+  *Se questo progetto ti è stato utile, lascia una ⭐️ al repository!*
+
 
 <div align="center">
   
